@@ -7,6 +7,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.ts-logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  height: 45px;
+  width: auto;
+  z-index: 1000;
+  cursor: pointer;
+}
+
 body {
   background-color: #c9d6ff;
   background: linear-gradient(to right, #e2e2e2, #c9d6ff);
@@ -210,3 +220,4 @@ body {
 .container.active .toggle-right {
   transform: translateX(200%);
 }
+
